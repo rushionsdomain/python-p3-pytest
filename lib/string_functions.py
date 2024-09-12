@@ -1,6 +1,7 @@
 def return_string():
-    return ''
+    """returns a variable of type str."""
+    return "This is a string"
 
-def interpolate_string(s):
-    return f'Hello, {s}!'
-    
+def interpolate_string(name):
+    """takes a string and inserts it into another string."""
+    return f"Hello, {name}!"
